@@ -1,93 +1,113 @@
-# **🌱 Crop & Fertilizer Recommendation System**  
+# 🌱 Crop & Fertilizer AI Recommendation System
 
-## **📌 Introduction**  
-This project is a **AI Powered Crop & Fertilizer Recommendation System**. The system provides **personalized crop and fertilizer recommendations** based on soil composition, weather conditions, and crop requirements.  
+[![GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Raviteja5469/project---crop-fertilizers)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/ravi-teja-61190a253)
 
+## 🎯 Overview
 
-## **🎯 Project Goals**  
-✅ Integrate **AI and Green Skills** into agriculture.  
-✅ Explore **Machine Learning techniques** for precision farming.  
-✅ Develop a **real-time recommendation system** for farmers.  
-✅ Enhance **data preprocessing, model selection, and optimization skills**.  
-<!-- ✅ Deploy an **interactive web app** using **Streamlit**.   -->
+An intelligent agricultural solution that leverages AI to provide personalized crop and fertilizer recommendations based on:
+- Soil composition analysis
+- Weather conditions
+- Specific crop requirements
 
-## **📂 Datasets Used**  
-The project uses two datasets:  
+## ✨ Key Features
 
-### **1️⃣ Crop Dataset**  
-- **Features:** Nitrogen, Phosphorous, Potassium, Temperature, Humidity, pH, Rainfall  
-- **Target Variable:** Crop Label (Crop Name)  
+- 🤖 AI-powered recommendation engine  
+- 🌡️ Real-time weather integration  
+- 🧪 Soil composition analysis  
+- 🎯 Precision farming capabilities  
+- 📊 Interactive data visualization  
+- ⚡ Real-time predictions  
 
-### **2️⃣ Fertilizer Dataset**  
-- **Features:** Temperature, Humidity, Moisture, Soil Type, Crop Type, Nitrogen, Phosphorous, Potassium  
-- **Target Variable:** Fertilizer Name  
+## 🛠️ Tech Stack
 
-## **📊 Methodology**  
-
-### **Step 1: Data Collection & Preprocessing**  
-🔹 **Performed Exploratory Data Analysis (EDA)** to understand data distributions.  
-🔹 **Encoded categorical variables** using Label Encoding.  
-🔹 **Split the dataset** into **train & test sets** using Scikit-Learn.  
-
-### **Step 2: Model Selection & Training**  
-🔹 Tested multiple **ML algorithms**, including:  
-   - Logistic Regression, GaussianNB, SVC, KNN, DecisionTree, ExtraTree, RandomForest, Bagging, Gradient Boosting, AdaBoost, CatBoost, and LGBM.  
-🔹 Compared **model performance** based on accuracy & validation metrics.  
-
-### **Step 3: Ensemble Learning for Optimization**  
-🔹 Evaluated different ensemble techniques:  
-   - **Voting Classifier, Stacking, Averaging Probabilities, Weighted Ensemble, Blend Ensemble (Custom Blending).**  
-🔹 **Blend Ensemble provided the best results**, so it was selected.  
-🔹 **Cross-validation** was performed to validate model performance.  
-
-### **Step 4: Deployment & Integration**  
-<!-- 🔹 Exported trained models as **.pkl files** (`crop_recommendation.pkl`, `fertilizer_recommendation.pkl`).   -->
-🔹 Integrated models into a **Streamlit app** for real-time predictions.  
-🔹 **Deployed the application on Streamlit Cloud.**  
-
-## **🔍 Key Features**  
-✅ **Real-time Model Performance Metrics** (Accuracy Tracking).  
-✅ **Feature Importance Analysis** for better interpretability.  
-✅ **Feature Distributions** to understand data variations.  
-✅ **Prediction Probabilities** to assess model confidence.  
-
-## **🚀 Technologies Used**  
-| Category            | Tools & Libraries |
-|---------------------|------------------|
-| **Development**    | Python, Jupyter Notebook, Anaconda |
-| **ML Frameworks**  | Scikit-Learn, CatBoost, LGBM, XGBoost |
-| **Data Processing**| Pandas, NumPy |
-| **Visualization**  | Matplotlib, Seaborn |
-| **Deployment**     | Streamlit, Streamlit Cloud |
-
-
-## **🎯 Future Improvements**  
-🔹 Expand the dataset to include **more crop varieties & soil types**.  
-🔹 Integrate **real-time weather data** for better recommendations.  
-🔹 Incorporate **IoT & satellite data** for advanced precision farming.  
-🔹 Optimize **model efficiency & deployment** for faster predictions.  
-
-## **📥 Installation & Setup**  
-
-### **🔹 Clone the Repository**  
-```bash
-git clone https://github.com/Raviteja5469/project---crop-fertilizers
+```mermaid
+graph TD
+    A[Python] --> B[Machine Learning]
+    B --> C[Scikit-Learn]
+    B --> D[CatBoost]
+    B --> E[LGBM]
+    F[Data Processing] --> G[Pandas]
+    F --> H[NumPy]
+    I[Visualization] --> J[Matplotlib]
+    I --> K[Seaborn]
+    L[Deployment] --> M[Streamlit]
 ```
 
-### **🔹 Install Required Dependencies**  
-```bash
-pip install -r requirements.txt
-```
+## 📊 Model Architecture
 
-### **🔹 Run the Streamlit App**  
-```bash
-streamlit run app.py
-```
+### Data Pipeline
+1. **Data Collection & Preprocessing**  
+   - Exploratory Data Analysis (EDA)  
+   - Feature Engineering  
+   - Label Encoding  
 
-## **📜 License**  
-This project is **open-source** and free to use. Feel free to contribute!  
+2. **Model Training**  
+   - Multiple ML algorithms evaluation  
+   - Ensemble Learning implementation  
+   - Cross-validation  
 
-## **📧 Contact**  
-📌 **Author:** Seguri Raviteja  
-📌 **GitHub:** [Raviteja5469](https://github.com/Raviteja5469)  
-📌 **LinkedIn:** [Seguri Raviteja](https://www.linkedin.com/in/ravi-teja-61190a253)  
+### Datasets
+#### Crop Dataset Features
+- Nitrogen  
+- Phosphorous  
+- Potassium  
+- Temperature  
+- Humidity  
+- pH  
+- Rainfall  
+
+#### Fertilizer Dataset Features
+- Temperature  
+- Humidity  
+- Moisture  
+- Soil Type  
+- Crop Type  
+- NPK Values  
+
+## 🚀 Getting Started
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/Raviteja5469/project---crop-fertilizers
+   ```
+
+2. **Install Dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch Application**  
+   ```bash
+   streamlit run app.py
+   ```
+
+## 📈 Future Roadmap
+
+- [ ] Expand crop & soil type database  
+- [ ] Integrate IoT sensor data  
+- [ ] Implement satellite imagery analysis  
+- [ ] Add mobile application support  
+- [ ] Enhance model accuracy  
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Contact
+
+| Platform | Link |
+|----------|------|
+| **Author** | Seguri Raviteja |
+| **GitHub** | [Raviteja5469](https://github.com/Raviteja5469) |
+| **LinkedIn** | [Seguri Raviteja](https://www.linkedin.com/in/ravi-teja-61190a253) |
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+<p align="center">
+Made with ❤️ by Seguri Raviteja
+</p>
