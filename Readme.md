@@ -98,7 +98,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 | Platform | Link |
 |----------|------|
-| **Author** | Seguri Raviteja |
+| **Author** | Raviteja |
+| **E-mail** | ravitejaseguri@gmail.com |
 | **GitHub** | [Raviteja5469](https://github.com/Raviteja5469) |
 | **LinkedIn** | [Seguri Raviteja](https://www.linkedin.com/in/ravi-teja-61190a253) |
 
