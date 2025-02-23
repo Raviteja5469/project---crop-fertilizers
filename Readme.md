@@ -20,22 +20,22 @@ An intelligent agricultural solution that leverages AI to provide personalized c
 - ⚡ Real-time predictions  
 
 🛠️ Tech Stack
+## 🛠️ Tech Stack
+
 Use the following Mermaid code to visualize the project's technologies:
 
-sh
-
-
-mermaid
-graph TD
-    A["Python"] --> B["Machine Learning"]
-    B --> C["Scikit-Learn"]
-    B --> D["CatBoost"]
-    B --> E["LGBM"]
-    F["Data Processing"] --> G["Pandas"]
-    F --> H["NumPy"]
-    I["Visualization"] --> J["Matplotlib"]
-    I --> K["Seaborn"]
-    L["Deployment"] --> M["Streamlit"]
+    mermaid
+    graph TD
+        A["Python"] --> B["Machine Learning"]
+        B --> C["Scikit-Learn"]
+        B --> D["CatBoost"]
+        B --> E["LGBM"]
+        F["Data Processing"] --> G["Pandas"]
+        F --> H["NumPy"]
+        I["Visualization"] --> J["Matplotlib"]
+        I --> K["Seaborn"]
+        L["Deployment"] --> M["Streamlit"]
+        
 ## 📊 Model Architecture
 
 ### Data Pipeline
