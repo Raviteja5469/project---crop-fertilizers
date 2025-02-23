@@ -11,7 +11,6 @@ An intelligent agricultural solution that leverages AI to provide personalized c
 - Specific crop requirements
 
 ## ✨ Key Features
-
 - 🤖 AI-powered recommendation engine  
 - 🌡️ Real-time weather integration  
 - 🧪 Soil composition analysis  
@@ -19,7 +18,6 @@ An intelligent agricultural solution that leverages AI to provide personalized c
 - 📊 Interactive data visualization  
 - ⚡ Real-time predictions  
 
-🛠️ Tech Stack
 ## 🛠️ Tech Stack
 
 Use the following Mermaid code to visualize the project's technologies:
@@ -35,14 +33,15 @@ Use the following Mermaid code to visualize the project's technologies:
         I["Visualization"] --> J["Matplotlib"]
         I --> K["Seaborn"]
         L["Deployment"] --> M["Streamlit"]
-        
+
 ## 📊 Model Architecture
 
 ### Data Pipeline
+
 1. **Data Collection & Preprocessing**  
    - Exploratory Data Analysis (EDA)  
    - Feature Engineering  
-   - Label Encoding  
+   - Label Encoding 
 
 2. **Model Training**  
    - Multiple ML algorithms evaluation  
