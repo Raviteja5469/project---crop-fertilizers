@@ -21,8 +21,6 @@ An intelligent agricultural solution that leverages AI to provide personalized c
 
 ## 🛠️ Tech Stack
 
-mermaid
-
 graph TD
     A["Python"] --> B["Machine Learning"]
     B --> C["Scikit-Learn"]
@@ -33,7 +31,6 @@ graph TD
     I["Visualization"] --> J["Matplotlib"]
     I --> K["Seaborn"]
     L["Deployment"] --> M["Streamlit"]
-
 
 ## 📊 Model Architecture
 
