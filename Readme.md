@@ -79,6 +79,7 @@ Use the following Mermaid code to visualize the project's technologies:
    ```
 
 3. **Launch Application**
+
     Create an application app. py
     Add the model to it
    ```bash
