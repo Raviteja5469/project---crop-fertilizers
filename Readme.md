@@ -78,7 +78,9 @@ Use the following Mermaid code to visualize the project's technologies:
    pip install -r requirements.txt
    ```
 
-3. **Launch Application**  
+3. **Launch Application**
+    Create an application app. py
+    Add the model to it
    ```bash
    streamlit run app.py
    ```
